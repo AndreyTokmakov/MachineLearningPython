@@ -1,2 +1,1 @@
-# MachineLearningPython
-Python MachineLearning study and experiments
+# Python MachineLearning experiments
