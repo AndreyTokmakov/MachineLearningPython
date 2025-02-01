@@ -1,7 +1,7 @@
-
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets, linear_model, model_selection
+
 
 def load_dataset():
     X, y = datasets.load_diabetes(return_X_y=True)
@@ -18,12 +18,8 @@ def load_dataset():
     print(X)
 
 
-
-
 if __name__ == '__main__':
     # load_dataset()
-
-
 
     X, y = datasets.load_diabetes(return_X_y=True)
     X = X[:, 2]
